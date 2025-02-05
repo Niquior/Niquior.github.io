@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python for Beginners</title>
+    <link rel="stylesheet" href="../Assets/style.css">
+    <script src="../Assets/Scripts/app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="flexHorizontal flexSpaceBetween flexCenter">
+            <a href="../index.html" class="logo flexHorizontal flexCenter">
+                <img src="../Assets/Images/logo.png" alt="logo">
+                <h1>E-Guide</h1>
+            </a>
+            <div id="headerRight" class="flexHorizontal flexCenter">
+                <nav>Explore</nav>
+                <a href="../login.html" id="loginBtn" class="whiteBtn">Log in</a>
+                <a href="../signup.html" id="signupBtn" class="goldBtn">Sign up</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="elementOnWhiteBackground progress flexHorizontal flexSpaceBetween">
+                <label for="pythonProgress">Your Progress:</label>
+                <progress id="pythonProgress" value="0" max="100">0%</progress>
+            </div>
+            <h2 class="marginTop">Python for Beginners</h2>
+            <div id="coursePlan" class="elementOnWhiteBackground">
+                <img class="courseLogo" src="../Assets/Images/logopython.webp" alt="">
+                <h3>Python Basics Study Plan (2-Week Plan)</h3>
+                <p>This plan is designed for absolute beginners to get comfortable with Python fundamentals. It includes daily topics, exercises, and small projects.</p>
+
+                <hr>
+
+                <h4>📌 Week 1: Getting Started with Python</h4>
+
+                <h5>Day 1: Introduction to Python & Setup</h5>
+                <ul type="none">
+                    <li>🔹 Install Python and an IDE (VS Code, PyCharm, or Jupyter Notebook)</li>
+                    <li>🔹 Learn how to run Python scripts (print("Hello, World!"))</li>
+                    <li>🔹 Understand basic syntax, comments, and indentation</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Print your name and a short introduction using print()</p>
+
+                <hr>
+
+                <h5>Day 2: Variables & Data Types</h5>
+                <ul type="none">
+                    <li>🔹 Variables (x = 10, name = "Alice")</li>
+                    <li>🔹 Basic data types: int, float, str, bool</li>
+                    <li>🔹 Type conversion (int("5") → 5)</li>
+                </ul>
+                <p>📝 <b>Exercise</b><b>Exercise</b>: Create a program that stores your name, age, and favorite number, then prints them.</p>
+
+                <hr>
+
+                <h5>Day 3: Basic Operators</h5>
+                <ul type="none">
+                    <li>🔹 Arithmetic (+, -, *, /, //, %, **)</li>
+                    <li>🔹 Comparison (==, !=, >, <,>=, <=)</li>
+                    <li>🔹 Logical (and, or, not)</li>
+                </ul>
+                <p>📝 <b>Exercise</b><b>Exercise</b>: Write a simple calculator that takes two numbers and prints their sum, difference, product, and quotient.</p>
+
+                <hr>
+
+                <h5>Day 4: Strings & String Manipulation</h5>
+                <ul type="none">
+                    <li>🔹 String operations (len(), upper(), lower(), replace(), split())</li>
+                    <li>🔹 String formatting (f"Hello, {name}!")</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Ask the user for their full name and print it in uppercase and reversed order.</p>
+
+                <hr>
+
+                <h5>Day 5: Lists & Tuples</h5>
+                <ul type="none">
+                    <li>🔹 Lists (my_list = [1, 2, 3]) and operations (append(), remove(), sort())</li>
+                    <li>🔹 Tuples (my_tuple = (1, 2, 3)) and immutability</li>
+                    <li>🔹 Indexing and slicing (list[0], list[-1], list[1:3])</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Create a list of your favorite foods and modify it.</p>
+
+                <hr>
+
+                <h5>Day 6: Conditional Statements</h5>
+                <ul type="none">
+                    <li>🔹 if, elif, else</li>
+                    <li>🔹 Nested conditions</li>
+                    <li>🔹 Logical conditions with operators</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Write a program that asks for a user's age and tells them if they are a child, teenager, or adult.</p>
+
+                <hr>
+
+                <h5>Day 7: Mini Project - Basic Chatbot</h5>
+                <ul type="none">
+                    <li>✅ Use input(), if-else, and string operations</li>
+                    <li>✅ Let the chatbot greet the user and respond to basic phrases like "hello" or "how are you?"</li>
+                </ul>
+
+                <h4>📌 Week 2: Control Structures & Functions</h4>
+
+                <hr>
+
+                <h5>Day 8: Loops (For & While)</h5>
+                <ul type="none">
+                    <li>🔹 for loops (iterating over a list or range)</li>
+                    <li>🔹 while loops (looping until a condition is met)</li>
+                    <li>🔹 break and continue</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Print numbers 1-10 using both for and while loops.</p>
+
+                <hr>
+
+                <h5>Day 9: Functions & Parameters</h5>
+                <ul type="none">
+                    <li>🔹 Defining functions (def my_function())</li>
+                    <li>🔹 Parameters and return values</li>
+                    <li>🔹 Default arguments</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Create a function that takes a name as input and prints a personalized greeting.</p>
+
+                <hr>
+
+                <h5>Day 10: Dictionaries & Sets</h5>
+                <ul type="none">
+                    <li>🔹 Dictionaries ({"name": "Alice", "age": 25})</li>
+                    <li>🔹 Adding, modifying, and deleting key-value pairs</li>
+                    <li>🔹 Sets and their properties</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Create a dictionary storing a few of your favorite movies and their release years.</p>
+
+                <hr>
+
+                <h5>Day 11: Working with Files</h5>
+                <ul type="none">
+                    <li>🔹 Reading & writing files (open("file.txt", "w"))</li>
+                    <li>🔹 Appending data to a file</li>
+                    <li>🔹 Reading line by line</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Write a program that takes user input and saves it to a text file.</p>
+
+                <hr>
+
+                <h5>Day 12: Error Handling</h5>
+                <ul type="none">
+                    <li>🔹 Using try-except blocks to catch errors</li>
+                    <li>🔹 Handling user input errors</li>
+                    <li>🔹 Custom error messages</li>
+                </ul>
+                <p>📝 <b>Exercise</b>: Write a program that asks for a number and handles errors if the user enters text.</p>
+
+                <hr>
+
+                <h5>Day 13: Final Mini Project - To-Do List App</h5>
+                <ul type="none">
+                    <li>✅ Create a simple to-do list program that allows users to:</li>
+                </ul>
+                <ul type="none">
+                    <li>🔹 Add tasks</li>
+                    <li>🔹 View tasks</li>
+                    <li>🔹 Remove completed tasks</li>
+                    <li>🔹 Save tasks to a file</li>
+                </ul>
+
+                <hr>
+
+                <h5>Day 14: Review & Next Steps</h5>
+                <ul type="none">
+                    <li>✅ Review all topics by solving small coding challenges</li>
+                    <li>✅ Resources for further learning:</li>
+                    <li>
+                        <ul type="none">
+                            <li>🔹 FreeCodeCamp Python Course</li>
+                            <li>🔹 Python Crash Course (Book)</li>
+                            <li>🔹 Python Exercises on LeetCode/HackerRank</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <hr>
+
+                <h4>🔥 Bonus Challenge (Optional): Build a Number Guessing Game</h4>
+                <ul type="none">
+                    <li>🔹 The program generates a random number</li>
+                    <li>🔹 The user guesses the number</li>
+                    <li>🔹 The program provides hints ("too high" or "too low")</li>
+                    <li>🔹 The game ends when the user guesses correctly</li>
+                </ul>
+            </div>
+            <a href="" class="blueBtn marginTop">Begin Studying</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="flexVertical">
+                <h4>Info</h4>
+                <ul type="none">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>

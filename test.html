@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <script src="./Assets/Scripts/app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="flexHorizontal flexSpaceBetween flexCenter">
+            <a href="./index.html" class="logo flexHorizontal flexCenter">
+                <img src="./Assets/Images/logo.png" alt="logo">
+                <h1>E-Guide</h1>
+            </a>
+            <div id="headerRight" class="flexHorizontal flexCenter">
+                <nav>Explore</nav>
+                <a href="./login.html" id="loginBtn" class="whiteBtn">Log in</a>
+                <a href="./signup.html" id="signupBtn" class="goldBtn">Sign up</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <form action="" class="testForm flexVertical">
+                <h2 class="marginTop">Background & Experience</h2>
+                <div class="testSection">
+                    <div class="elementOnWhiteBackground">
+                        <label for="">Have you studied AI, data science, or programming before?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q1" value="yes" id="q1opt1">
+                            <label for="q1opt1">Yes</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q1" value="no" id="q1opt2">
+                            <label for="q1opt2">No</label>
+                        </div>
+                    </div>
+                    <div class="elementOnWhiteBackground">
+                        <label for="">If yes, what is your level of expertise?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q2" value="beginner" id="q2opt1">
+                            <label for="q2opt1">Beginner </label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q2" value="intermediate" id="q2opt2">
+                            <label for="q2opt2">Intermediate </label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q2" value="Advanced" id="q2opt3">
+                            <label for="q2opt3">Advanced</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q2" value="none" id="q2opt4">
+                            <label for="q2opt4">None</label>
+                        </div>
+                    </div>
+                    <div class="elementOnWhiteBackground">
+                        <label for="">Which programming languages are you familiar with?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="python" id="q3opt1">
+                            <label for="q3opt1">Python</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="java" id="q3opt2">
+                            <label for="q3opt2">Java</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="cpp" id="q3opt3">
+                            <label for="q3opt3">C++</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="js" id="q3opt4">
+                            <label for="q3opt4">Javascript</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="cs" id="q3opt5">
+                            <label for="q3opt5">C#</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="Other" id="q3opt6">
+                            <label for="q3opt6">Other</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q3" value="none" id="q3opt7">
+                            <label for="q3opt7">None</label>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="marginTop">Learning Preferences</h2>
+                <div class="testSection">
+                    <div class="elementOnWhiteBackground">
+                        <label for="">How do you prefer to learn?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q4" value="videos" id="q4opt1">
+                            <label for="q4opt1">Videos</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q4" value="books" id="q4opt2">
+                            <label for="q4opt2">Books</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q4" value="handsOnProjects" id="q4opt3">
+                            <label for="q4opt3">Hands-on projects</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q4" value="liveLectures" id="q4opt4">
+                            <label for="q4opt4">Live lectures</label>
+                        </div>
+                    </div>
+                    <div class="elementOnWhiteBackground">
+                        <label for="">How much time per week can you dedicate to learning AI?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q5" value="2to5" id="q5opt1">
+                            <label for="q5opt1">2-5 hrs</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q5" value="6to10" id="q5opt2">
+                            <label for="q5opt2">6-10 hrs</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q5" value="moreThan10" id="q5opt3">
+                            <label for="q5opt3">10+ hrs</label>
+                        </div>
+                    </div>
+                    <div class="elementOnWhiteBackground">
+                        <label for="">Do you prefer structured lessons or self-paced learning?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q6" value="structured" id="q6opt1">
+                            <label for="q6opt1">Structured</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q6" value="selfPaced" id="q6opt2">
+                            <label for="q6opt2">Self-paced</label>
+                        </div>
+                    </div>
+                    <div class="elementOnWhiteBackground">
+                        <label for="">Would you like assignments and quizzes to track progress?</label>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q7" value="yes" id="q7opt1">
+                            <label for="q7opt1">Yes</label>
+                        </div>
+                        <div class="centeredText flexHorizontal flexCenter">
+                            <input type="radio" name="q7" value="no" id="q7opt2">
+                            <label for="q7opt2">No</label>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="./testResult.html" type="submit" class="marginTop goldBtn">Finish Test</a>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="flexVertical">
+                <h4>Info</h4>
+                <ul type="none">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
